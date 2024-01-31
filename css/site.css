@@ -1,5 +1,6 @@
 body {
-  background-color:white;
+  background-color: #e9e8e7;
+  color: #7d7d7d
 }
 
 h1 {
@@ -8,13 +9,35 @@ h1 {
 }
 h2,h3 {
   font-family: "Varela Round";
-  color: #7d7d7d
 }
 
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
   word-spacing: 5px;
   font-size: 200%;
+}
+
+#links {
+  text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  text-decoration-color: #7d7d7d;
+  color: teal;
+}
+
+a:hover {
+  color: orange;
+}
+
+#name{
+  font-size: xx-large;
+  text-align: center;
+}
+
+.yearMarker {
+  color: orange;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
