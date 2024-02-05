@@ -1,5 +1,9 @@
 #headshot{
-    max-width: 450px;
+    max-width: 500px;
     float: left;
     margin-right: 50px;
 }
+
+hr.solid {
+    border-top: 1px solid #bbb;
+  }
